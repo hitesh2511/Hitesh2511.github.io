@@ -217,18 +217,16 @@ header .header-content .header-content-inner p {
     }
 
     header .header-content {
-        position: absolute;
-        top: 50%;
-        padding: 0 50px;
-        -webkit-transform: translateY(-50%);
-        -ms-transform: translateY(-50%);
-        transform: translateY(-50%);
-    }
+    position: absolute;
+    top: 50vh;
+    padding: 0 50px;
+    transform: translateY(-50%);
+}
 
     header .header-content .header-content-inner {
         margin-right: auto;
         margin-left: auto;
-        max-width: 1200px;
+        max-width: 1000px;
     }
 
     header .header-content .header-content-inner p {
